@@ -1,0 +1,219 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" 
+	href="./img/SARIBIKA_LOGO.jpg"/>
+  </head>
+  <body>
+  
+<!-- 	Untuk anchor kali ini, saya mencoba membuat simple
+	webpage daripada startup kopi yang sedang saya dirikan.
+	Saya mencoba untuk membuat design web sesimpel namun
+	lengkap. Artinya: minimalisir unsur dan jumlah container
+	maupun page, namun maksimalisasi penggunaan tag-tag HTML
+	dan CSS yang telah dipelajari.
+	
+	Design web ini mencoba menerapkan konsep "one page flow",
+	dimana ketika link diketik, tidak akan dibawa ke page lain,
+	namun cukup ke section lain.
+	
+	Saya juga mencoba bermain dengan fitur jumbotron dan
+	fixed navbar yang telah dicontohkan dikelas. Serta untuk
+	simplisitas form, saya memilih untuk menampilkan form user login,
+	sambil menerapkan batasan-batasan yang lazim, seperti panjang karakter
+	yang dibolehkan serta batasan alfanumerik untuk username. -->
+  
+    <header>
+	
+	  <div class="logospot">
+		 <img id="logotop" src="img/SARIBIKA_LOGO.jpg" width="60px"/>
+	  </div>
+	  
+	  
+	  <div class="menubar">
+	  
+<!-- 		Maksud hati mau bermain dengan class,
+		apa daya, jika anchor hyperlink hanya menuju
+		ke section lain di webpage yang sama,
+		mau tidak mau harus diaddress berdasarkan ID! -->
+		<ul>
+		
+
+		  <a href="#jumbotron"><li>Home</li></a>
+          <a href="#aboutus"><li>About</li></a>
+          <a href="#products"><li>Products</li></a>
+		  <a href="#"><li>Shop</li></a>
+		  <a href="#"><li>
+			<h4 class="subscribe-icon">Subscribe</h4></li></a>
+		  <a href="#user-login"><li>
+			<h4 class="login-icon">Login</h4></li></a>
+		  <a href="#contact"><li>
+			<h4 class="contact-icon">Contact</h4></li></a>        
+		
+		</ul>
+		
+		
+	  </div>
+        
+    </header>
+	
+	<hr>
+	
+<!-- 	Saya mencoba untuk menggunakan jumbotron sebagai homepage,
+	dengan motto startup kopi saya: Kopi Anda yang Klasik nan Termutakhir.
+	PAda jumbotron ini, saya mencoba untuk meletakkan heading
+	selalu ditengah2 background, namun background akan ikut habis
+	di-scroll. -->
+    <div id="jumbotron">
+	
+
+		<h1 id="motto">Your Next-Generation, Classic Coffee</h1>
+	
+    </div>
+	
+	<div id="aboutus">
+	
+		<h2>About</h2>
+		<br>
+		<p>
+		Quality at Affordability? How about PLUS Sustainability & Inclusion?
+		Saribika is here to bring ALL four to your daily cup of coffee.
+		</p>
+		
+		<br>
+		
+		<p>
+		<strong>Vision:</strong> to become the strongest household-brand coffee in Indonesia and worldwide
+		thru quality, affordability, sustainability & inclusion.
+		</p>
+		
+		<br>
+		
+		<p>
+		<strong>Mission:</strong> To gain continous competitive edge and trailblaizing by
+		embracing Total Quality Control, Fair-Sustainable Trade, Scientific Research,
+		Leading-edge Technologies and Practices, and Progressive-Agenda Activism.
+		</p>
+
+	</div>
+	
+	
+<!-- 	Untuk kolom produk, saya mencoba untuk bermain dengan
+	flex guna menampilkan ilustrasi produk dikiri, lalu
+	deskripsi produk dikanan.
+	
+	Untuk permulaan, saya hanya akan menjual 2 jenis kopi:
+	kopi drip dalam bag, dan biji kopi. -->
+	<div id="products">
+	
+		<h2>Products</h2>
+		
+		<br>
+		
+		<p>Saribika uses 100% Indonesian coffee as blends across
+			various regions, be it Arabica or Robusta.
+			As part of our commitment towards sustainability,
+			Saribika prioritizes using Robusta-type, and 
+			natural, honey, or semi-wash processed beans.
+			We are deeply committed to provide a clean,
+			balanced coffee, suitable for even GERD patients!</p>
+
+		<div class="dripbags">
+		
+			<div class="product-illustration">
+				<img id="drip-sample" src="img/clean-drip-coffee-bag.jpg">
+			</div>
+			
+			<div class="product-description">
+				<h3>Drip Bags</h3>
+				<br>
+				<p>
+				Want a clean cup, but less hassle to cleanup or prepare?
+				Or just want to enjoy a clean cup on-the-go?
+				Rejoice, we provide you with the drip-bag edition!
+				This drip-bag edition comes with <em>a package of 5 bags of 10-grams </em>, medium-grind coffee
+				@ <strong>IDR 75,000-</strong>.
+				</p>			
+			</div>
+
+		
+		</div>
+		
+		<br><br>
+		
+		<div class="coffee-beans">
+		
+			<div class="product-illustration">
+				<img id="beans-sample" src="img/Coffee_Beans.jpg">
+			</div>
+			
+			<div class="product-description">
+				<h3>Coffee Beans</h3>
+				<br>
+				<p>
+				Want a clean cup, but less hassle to cleanup or prepare?
+				Or just want to enjoy a clean cup on-the-go?
+				Rejoice, we provide you with the drip-bag edition!
+				This "bulk" edition comes with <em>a bag of 250 grams</em>
+				@ <strong>IDR 75,000-</strong>.
+				</p>			
+			</div>
+
+		
+		</div>
+	
+	</div>
+	
+<!-- 	Disini, saya mencoba untuk bermain-main dengan
+	form html dan validasi, melalui opsi login user. -->
+	<div id="user-login">
+	
+		<h3>Login</h3>
+		<br>
+		<form action="login_success.html">
+		
+		<!-- Insert Username yang hanya--
+		boleh berupa alfanumerik sebesar 8-16 karakter -->
+		<label for="username">Username:</label>
+        <br>
+        <input type="text" name="username" 
+		id="username" minlength="3"
+		maxlength="18" pattern="[a-zA-Z0-9]+" required>
+        <br><br>
+		
+		<!-- Password: bebas saja, asal antara 8-16 karater -->
+		<label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" 
+		id="password" minlength="8"
+		maxlength="16" required>
+         <br><br>
+		
+		<input type="submit" value="Submit">
+		
+		</form>
+	
+	</div>
+	
+	
+<!-- 	Sekalian saja footer jadi kontak!
+	Jangan lupa follow IG-nya ya (kalo yang ini sih aseli!).
+	Saya juga berlatih meletakkan ikon-ikon kontak yang lain,
+	seperti ikon tokopedia atau bukalapak. Hendak
+	mengatakan: "temukan juga kami di Tokopedia & Bukalapak".
+	-->
+    <footer id="contact">
+	  <h5>Email: saribikacoffee@provider.com</h5>
+	  <h5>Instagram: @saribika</h5>
+	  <h5>Also Available In:</h5>
+	  <ul>
+		<li><img id="tokped" src="img/Tokopedia_Icon.png"></li>
+		<li><img id="bukalapak" src="img/icon-bukalapak.png"></li>
+	  </ul>
+	  
+      <h3 id="copyright">copyright &copy; 2020 by Project Bogacraft</h3>
+    </footer>
+	
+	
+  </body>
+</html>

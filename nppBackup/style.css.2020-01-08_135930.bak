@@ -1,0 +1,36 @@
+
+* {
+	
+	font-family: font-family: 'Lucida Sans Typewriter', serif;
+	overflow-x: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+
+body {
+
+}
+
+
+#logo {
+	
+	
+	
+}
+
+
+
+
+header {
+	
+	display: flex;
+	align-items: center;
+ 	position: fixed; 
+	background-color: #fcf3e2; 
+	width: 100%;
+	top: 0;
+	z-index: 20;
+
+	
+}

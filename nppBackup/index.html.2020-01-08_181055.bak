@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" 
+	href="./img/SARIBIKA_LOGO.jpg"/>
+  </head>
+  <body>
+    <header>
+	
+	  <div class="logospot">
+		 <img src="img/SARIBIKA_LOGO.jpg" width="60px"/>
+	  </div>
+	  
+	  
+	  <div class="menubar">
+	  
+		<ul class = "menupages">
+          <a href="#jumbotron"><li>Home</li></a>
+          <a href="#whoami"><li>About</li></a>
+          <a href="#products"><li>Products</li></a>
+		  <a href="#"><li>Shop</li></a>
+		  <a href="#"><li><h4 class="subscribe-icon">Subscribe</h4></li></a>
+		  <a href="#"><li><h4 class="login-icon">Login</h4></li></a>
+		  <a href="#"><li><h4 class="contact-icon">Contact</h4></li></a>        
+		</ul>
+		
+		
+	  </div>
+        
+    </header>
+	
+	<hr>
+	
+    <div class="jumbotron">
+	
+
+		<h1 id="motto">Your Next-Generation, Classic Coffee</h1>
+	
+    </div>
+	
+	<div class="whoami">
+	
+		<h2>About</h2>
+		<br>
+		<p>
+		Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+		Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+		Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+		Et sea quem sint, nam in minim voluptatibus. 
+		Etiam placerat eam in.
+		
+		Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+		Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+		Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+		Et sea quem sint, nam in minim voluptatibus. 
+		Etiam placerat eam in.
+		</p>
+
+	</div>
+	
+	<br><br><br><br>
+	
+	<div class="products">
+
+		<div class="dripbags">
+		
+			<div class="product-illustration">
+				<img id="drip-sample" src="img/clean-drip-coffee-bag.jpg">
+			</div>
+			
+			<div class="product-description">
+				<h2>Drip Bags</h2>
+				<br>
+				<p>
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				</p>			
+			</div>
+
+		
+		</div>
+		
+		<br><br>
+		
+		<div class="coffee-beans">
+		
+			<div class="product-illustration">
+				<img id="beans-sample" src="img/Coffee_Beans.jpg">
+			</div>
+			
+			<div class="product-description">
+				<h2>Coffee Beans</h2>
+				<br>
+				<p>
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				</p>			
+			</div>
+
+		
+		</div>
+	
+	</div>
+	
+<!-- 	Disini, saya mencoba untuk bermain-main dengan
+	form html, melalui opsi pembelian online
+	secara grosir, alias dikenakan MOQ.
+	
+	Dalam form ini, saya juga bermain dengan validation. -->
+	<div>
+		<form action="purchase_response.html">
+		
+<!-- 		Customer Name -->
+		<label for="custname">Name:</label>
+        <br>
+        <input type="text" name="custname" 
+		id="custname" minlength="1"
+		maxlength="255" pattern="[a-zA-Z]+" required>
+        <br>
+		
+		<!-- 		Customer Address -->
+		<label for="custadd">Address I:</label>
+        <br>
+        <input type="text" name="custadd" 
+		id="custadd" minlength="1"
+		maxlength="255" pattern="[a-zA-Z0-9]+" required>
+        <br>
+		
+		
+		<!-- 		Customer Address - Post Code-->
+		<label for="postcode">Postcode:</label>
+        <br>
+        <input type="number" name="postcode" 
+		id="postcode" minlength="1"
+		maxlength="5" pattern="[0-9]{1,5}" required>
+        <br>
+		
+		<!-- 		Customer Address - Post Code-->
+		<label for="postcode">Postcode:</label>
+        <br>
+        <input type="number" name="postcode" 
+		id="postcode" minlength="1"
+		maxlength="5" pattern="[0-9]{1,5}" required>
+        <br>
+		
+		
+		
+		</form>
+	
+	</div>
+	
+    <footer>
+      <h5>copyright &copy; 2020 by Project Bogacraft</h5>
+    </footer>
+	
+	
+  </body>
+</html>

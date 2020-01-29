@@ -1,0 +1,248 @@
+
+* {
+	
+	
+	overflow-x: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+
+body {
+	
+	font-family: 'Lucida Sans Typewriter', serif;
+
+}
+
+header {
+	
+	display: flex;
+	align-items: center; 
+ 	position: fixed; 
+	background-color: #fcf3e2; 
+	width: 100%;
+	top: 0;
+	z-index: 20;
+	height: 70px;
+	border: 1px solid #633b2f;
+
+}
+
+
+
+.logotop {
+	
+	box-sizing: border-box;
+	height: 60px;
+	width: 60px;
+	margin: 1px;
+	padding: 1px;
+}
+
+
+a {
+	color: #633b2f;
+	
+}
+
+.menubar {
+	
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	
+}
+
+
+
+.menubar a li {
+	
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+.menupages a li:hover {
+	color: #986c3d;
+}
+
+.subscribe-icon:hover {
+	color: red;
+}
+
+.login-icon:hover {
+	color: blue;
+}
+
+.contact-icon:hover {
+	color: green;
+}
+
+#jumbotron {
+	
+	position: relative;
+	margin-top: 65px;
+	background: url("./img/coffee_pouring.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#motto {
+	
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	color: red;
+	opacity: 0.5;
+	border: 5px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	
+}
+
+ hr {
+	border-top: 5px solid #633b2f;
+	 
+ }
+
+#aboutus {
+	
+ 	position: relative; 
+	margin-top:0;
+	background-color: #fcf3e2; 
+	color: #633b2f;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 1px solid #633b2f;
+
+	
+}
+
+#products {
+	
+	position: relative; 
+	margin-top:0;
+	background-color: #fcf3e2; 
+	color: #633b2f;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 1px solid;
+	
+}
+
+
+.product-illustration {
+	
+
+	
+}
+
+.coffee-beans, .dripbags {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+
+
+#drip-sample {
+	
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 0.5px solid #633b2f;
+	
+}
+
+#beans-sample {
+	
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 0.5px solid #633b2f;
+}
+
+.product-description {
+	
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+#user-login {
+	text-align: center;
+	background-color: #fcf3e2; 
+	color: #633b2f;
+	box-sizing: border-box;
+	border: 1px solid #633b2f;
+	padding: 10px 0;
+}
+
+
+#contact {
+	background-color: #633b2f;
+	position: relative;
+	border: 1px solid #633b2f;
+	
+}
+
+h5 {
+	
+	text-align: center;
+	color: #fcf3e2;
+	padding: 10px;
+} 
+
+#contact ul {
+	
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+
+
+}
+
+#contact ul li {
+	
+	display: inline-block;
+	padding: 2px;
+	margin: 2px;
+	
+	
+}
+
+
+#tokped {
+	
+	width: 30px;
+	height: 30px;
+
+}
+
+#bukalapak {
+	
+	width: 30px;
+	height: 30px;
+
+}
+
+#copyright {
+	
+	padding: 5px;
+	text-align: center;
+	font-weight: 900;
+	color: #fcf3e2;
+	
+}

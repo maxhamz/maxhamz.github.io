@@ -1,0 +1,14 @@
+<!-- Jika user berhasil login,
+    saya akan mencoba display message sederhana. -->
+
+<html>
+  <head>
+    <link href="style1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  </head>
+  <body>
+
+	<h1>Login Success.</h1>
+	
+  </body>
+</html>

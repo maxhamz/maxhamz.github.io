@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" 
+	href="./img/SARIBIKA_LOGO.jpg"/>
+  </head>
+  <body>
+    <header>
+	
+	  <div class="logospot">
+		 <img src="img/SARIBIKA_LOGO.jpg" width="60px"/>
+	  </div>
+	  
+	  
+	  <div class="menubar">
+	  
+		<ul class = "menupages">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Products</li></a>
+		  <a href="#"><li>Shop</li></a>
+		  <a href="#"><li><h4 class="subscribe-icon">SUBSCRIBE</h4></li></a>
+		  <a href="#"><li><h4 class="login-icon">LOGIN</h4></li></a>
+		  <a href="#"><li>Contact</li></a>        
+		</ul>
+		
+		
+	  </div>
+        
+    </header>
+	
+	<hr>
+	
+    <div class="jumbotron">
+	
+
+		<h1 id="motto">Your Next-Generation, Classic Coffee</h1>
+	
+    </div>
+	
+	<div class="whoami">
+	
+		<h2>About</h2>
+		<br>
+		<p>
+		Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+		Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+		Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+		Et sea quem sint, nam in minim voluptatibus. 
+		Etiam placerat eam in.
+		
+		Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+		Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+		Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+		Et sea quem sint, nam in minim voluptatibus. 
+		Etiam placerat eam in.
+		</p>
+
+	</div>
+	
+	<br><br><br><br>
+	
+	<div class="products">
+
+		<div class="dripbags">
+		
+			<div class="product-illustration">
+			
+			</div>
+			
+			<div class="product-description">
+				<h2>Drip Bags</h2>
+				<br>
+				<p>
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				</p>			
+			</div>
+
+		
+		</div>
+		
+		<br><br>
+		
+		<div class="coffee-beans">
+		
+			<div class="product-illustration">
+			
+			</div>
+			
+			<div class="product-description">
+				<h2>Drip Bags</h2>
+				<br>
+				<p>
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				
+				Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. 
+				Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. 
+				Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. 
+				Et sea quem sint, nam in minim voluptatibus. 
+				Etiam placerat eam in.
+				</p>			
+			</div>
+
+		
+		</div>
+	
+	</div>
+	
+    <footer>
+      <h5>copyright &copy; 2020 by Project Bogacraft</h5>
+    </footer>
+	
+	
+  </body>
+</html>

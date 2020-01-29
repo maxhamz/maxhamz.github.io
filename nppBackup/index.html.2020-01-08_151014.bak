@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" 
+	href="./img/SARIBIKA_LOGO.jpg"/>
+  </head>
+  <body>
+    <header>
+	
+	  <div class="logospot">
+		 <img class="logo" src="img/SARIBIKA_LOGO.jpg" />
+	  </div>
+	  
+	  
+	  <div class="menubar">
+	  
+		<ul class = "menupages">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About Us</li></a>
+          <a href="#"><li>Our Products</li></a>
+		  <a href="#"><li>Shop</li></a>
+		  <a href="#"><li><h4 class="subscribe-icon">SUBSCRIBE</h4></li></a>
+		  <a href="#"><li><h4 class="login-icon">LOGIN</h4></li></a>
+        </ul>
+		
+		
+	  </div>
+        
+    </header>
+	
+	
+    <section class="jumbotron">
+	
+		<h1 id="motto">Your Next-Generation Joe Classics</h1>
+	
+    </section>
+	
+	
+    <footer>
+      <h5>copyright &copy; 2020 by Project Bogacraft</h5>
+    </footer>
+	
+	
+  </body>
+</html>

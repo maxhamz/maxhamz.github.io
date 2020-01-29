@@ -1,0 +1,114 @@
+/* Pada styling ini, saya mencoba untuk sebisa mungkin 
+"hajar" dari parent terlebih dahulu.
+Untuk permainan warna, saya mencoba menggunakan format rgb.
+Sementara untuk masalah margin dan padding, saya mencoba
+bermain-main dengan format % atau px. Format px cocok
+untuk spacing yang kecil, sementara jika sudah ukuran besar,
+format persen serasa lebih efisien.
+
+Saya tetap berupaya untuk meminimalisir "aksesoris" mubazir,
+alias menghias secara maksimal dengan selector minimal.
+ */
+
+body {
+	font-family: 'Lucida Sans Typewriter', serif;
+}
+
+header {
+	
+ 	position: fixed; 
+	background-color: rgb(255,255,255); 
+	width: 100%;
+	top: 0;
+	z-index: 20;
+
+	
+}
+
+#logo {
+	
+	float: left;
+	padding: 5px;
+	
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+/*   border-style: dotted; */
+
+}
+
+a {
+	color: rgb(0,92,171);
+	text-decoration: none;
+}
+
+
+a li {
+  float: right;
+  padding: 5px 10px; 
+/*   border-style: solid; */
+}
+
+
+
+ section {
+	
+	position: relative;
+	background-image: url("img/sample-pattern.png");
+	width: 100%;
+ 	overflow: auto; 
+	margin-top: 4%;
+	margin-bottom: 0;
+
+}
+
+h1 {
+	text-align: center;
+
+	
+}
+
+ #article-list {
+	
+	margin-top: auto;
+	margin-bottom: 5%;
+	margin-left: 25%;
+	width: 50%;
+/* 	border-style: solid; */
+	background-color: rgb(255,255,255);
+	
+}
+
+article {
+	
+	padding: 2.5%;
+	border-spacing: 5%;
+ 	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(83,83,83);
+	
+}
+
+
+footer {
+	background-color: rgb(0,0,0);
+	margin-top: -2%;
+	position: relative;
+	
+}
+
+h5 {
+	
+	text-align: center;
+	color: rgb(255,255,255);
+	font-family: 'Slabo 27px', serif;
+	padding: 2%;
+} 
+
+
+
